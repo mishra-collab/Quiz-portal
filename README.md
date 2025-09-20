@@ -1,3 +1,3 @@
 # Quiz-portal
-My first project
+My first project.
 Author-Chhavi mishra
