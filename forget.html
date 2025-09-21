@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forget Password</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 320px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .input-text {
+    margin-bottom: 15px;
+  }
+  
+  .input-text label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .input-text input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .forget {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .forget input {
+    margin-right: 8px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #357ab8;
+  }
+  
+  .register {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .register a {
+    color: #4a90e2;
+    text-decoration: none;
+  }
+  
+  .register a:hover {
+    text-decoration: underline;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form action="#">
+      <h2>Forget Password</h2>
+      <br>
+      <div class="input-text">
+        <label for="email">Enter your email</label>
+        <input type="email" id="email">
+      </div>
+      
+      <div class="forget">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+      </div>
+      
+      <button type="submit">Send Email</button>
+      
+      <div class="register">
+        <p>Don't have an account? <a href="Register">Register here</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
